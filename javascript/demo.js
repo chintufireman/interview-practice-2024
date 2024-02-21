@@ -20,7 +20,23 @@ let usingObjectAsaKey=()=>{
     a[b]=123
     a[c]=456
     console.log(a[c]);
-    
+
 }
+
+var obj1 = {
+    valueOfThis: function(){
+      return this;
+    }
+  }
+  var obj2 = {
+    valueOfThis: ()=>{
+      return this;
+    }
+  }
+  
+  obj1.valueOfThis(); 
+  obj2.valueOfThis(); 
+
+
 
 
