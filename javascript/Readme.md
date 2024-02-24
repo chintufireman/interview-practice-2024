@@ -95,3 +95,34 @@ function myFunction(a, b, ...rest) {
     // Function body
 }
 ```
+
+## Spread operator
+```
+var spreadOperator=(x,y,z)=>{
+    console.log(x+y+z);
+  }
+
+  const arr =[1,2,3,4]
+  spreadOperator(...arr)
+```
+- **working:** in array the values are seprated by comma
+- **in string:** 
+```
+var spreadOperator=(x)=>{
+    console.log(...x);
+  }
+  spreadOperator("hars") //you cannot do it with numeric datatype, noncallable iterator error
+```
+-  in string case it will create array of characters
+
+- **object literals:**
+```
+var spreadOperator=()=>{
+    obj1 = {a : 1, b :2}
+    obj2 ={a:3, b:4}
+     var hello = {...obj1, ...obj2} //this will btw override value of obj1 with obj2
+    console.log(hello);
+  }
+```
+- **difference:** in object case it will separate key value pairs in {} with comma separated values
+

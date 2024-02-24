@@ -37,6 +37,12 @@ var obj1 = {
   obj1.valueOfThis(); 
   obj2.valueOfThis(); 
 
-
+  var spreadOperator=()=>{
+    obj1 = {a : 1, b :2}
+    obj2 ={c:3, b:4}
+    var hello = {...obj1, ...obj2}
+    console.log(hello);
+  }
+  spreadOperator()
 
 
