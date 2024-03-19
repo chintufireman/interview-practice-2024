@@ -46,3 +46,20 @@ var obj1 = {
   spreadOperator()
 
 
+var destructorObject=()=>{
+  const obj={
+    strength: 78,
+    benches: 39,
+    blackBoard:1
+  }
+
+  //if we want in new names to store the values
+  const{strength:strength2,benches:benches2,blackBoard:blackboard2}=obj
+  console.log(strength2, benches2, blackboard2);
+
+  //if we want to store the value as like same property name then simple 
+  const{strength,benches, blackBoard}=obj
+  console.log(strength);
+}
+destructorObject()
+

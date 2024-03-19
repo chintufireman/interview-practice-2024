@@ -126,3 +126,38 @@ var spreadOperator=()=>{
 ```
 - **difference:** in object case it will separate key value pairs in {} with comma separated values
 
+## object destructuring
+```
+var destructorObject=()=>{
+  const obj={
+    strength: 78,
+    benches: 39,
+    blackBoard:1
+  }
+
+  //if we want in new names to store the values
+  const{strength:strength2,benches:benches2,blackBoard:blackboard2}=obj
+  console.log(strength2, benches2, blackboard2);
+
+  //if we want to store the value as like same property name then simple 
+  const{strength,benches, blackBoard}=obj
+  console.log(strength);
+}
+destructorObject()
+```
+- **Difference in two ways:** in first one u can destructure object property to new variable name using semicolon, in second way if u want same property name used in object then simple remove semicolon.
+
+## array destructuring
+
+```
+const arr = [1, 2, 3, 4];
+const [first,second,third,fourth] = arr;
+console.log(first); // Outputs 1
+console.log(second); // Outputs 2
+console.log(third); // Outputs 3
+console.log(fourth); // Outputs 4
+```
+
+## Prototypal
+
+- **info:** 1. in simple terms a way to create an object without creating class as a blueprint for object. 2. they can create 
