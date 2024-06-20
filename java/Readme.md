@@ -26,9 +26,12 @@
         - TreeSet: Implementation class of SortedSet which will maintain elements in sorted order which is by default ascending order sorting
     - Iterating: in set we can only iterate using Iterable in which we can use for-each loop and also forEach() method.
 
-- **MAP:** There are two types to create map
+- **MAP:** There are two ways to create map
     - HashMap: in which duplicate keys are not allowed and order is not maintained this is class.
         - LinkedHashMap: Is a child class of hashmap in which order of insertion of key is preserved and duplicates are not allowed
-    - SortedMap: THis is an interface maybe order of key is maintained and this function sorts the key according to their natural order.
+    - SortedMap: This is an interface maybe order of key is maintained and this function sorts the key according to their natural order.
         - TreeMap: is implementation class of SortedMap used to implement SortedMap and does the keywise sorting.
 
+- **Ways of creating:** The way we can create any collection are having two ways first is type safe and second one non type safe
+- **Internal working:** 
+    1 da

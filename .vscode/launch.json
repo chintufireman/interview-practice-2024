@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "interview-practice_b33230de"
+        },
+        {
+            "type": "java",
             "name": "ProducerConsumer",
             "request": "launch",
             "mainClass": "Thread.ProducerConsumer",
