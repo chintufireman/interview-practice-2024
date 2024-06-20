@@ -34,4 +34,4 @@
 
 - **Ways of creating:** The way we can create any collection are having two ways first is type safe and second one non type safe
 - **Internal working:** 
-    1 da
+    1.  
