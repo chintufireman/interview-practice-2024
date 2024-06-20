@@ -33,5 +33,3 @@
         - TreeMap: is implementation class of SortedMap used to implement SortedMap and does the keywise sorting.
 
 - **Ways of creating:** The way we can create any collection are having two ways first is type safe and second one non type safe
-- **Internal working:** 
-    1. hello   
